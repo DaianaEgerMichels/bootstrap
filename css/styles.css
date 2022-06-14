@@ -1,3 +1,64 @@
-h1{
-    color: red;
+*{
+    font-family: 'Lato', sans-serif;
 }
+
+.bg-primary-color {
+background-color: #ffffff;
+}
+
+.bg-secondary-color {
+    background-color: #299;
+}
+
+.bg-dark-color {
+    background-color: #025;
+}
+
+.primary-color{
+    color: #025;
+}
+
+.secondary-color {
+    color: #299;
+}
+
+/* NAVBAR */
+
+#navbar {
+    border-bottom: 1px solid #45c2c2;
+}
+
+#navbar a:hover {
+    color: #299;
+}
+
+#navbar a.active{
+    border-bottom: 1px solid #45c2c2;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+#navbar-items .nav-item{
+margin: 0 1em;
+}
+
+/* SLIDER */
+
